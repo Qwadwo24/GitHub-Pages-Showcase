@@ -1,0 +1,76 @@
+body {
+   
+    background: radial-gradient(circle, rgba(169,129,147,1) 0%, rgba(92,122,157,1) 100%);
+}
+
+.shapes {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+#container{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.pentagon{
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+
+}
+.hexagon{
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 87px solid lightgreen;
+}
+
+.rectangle{
+    width: 150px;
+    height: 100px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+
+}
+#title{
+    color: white;
+    text-align: center;
+}
